@@ -222,7 +222,37 @@
     </div>
   </div>
 </div>
+<style>
+    /* Mobile Responsive Tweaks */
+@media (max-width: 640px) {
+  .flex.items-center.space-x-4.mb-4 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem; /* Replaces space-x-4 for vertical spacing */
+  }
 
+  .flex.space-x-4 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem; /* Space between social icons */
+  }
+
+  img.h-16.w-16.rounded-full {
+    height: 64px;
+    width: 64px;
+  }
+
+  h2.text-gray-600 {
+    font-size: 1.125rem; /* Adjust headline size */
+  }
+
+  .space-y-2.text-gray-700.text-sm {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+</style>
                         <script>
   document.addEventListener('DOMContentLoaded', () => {
     const toggle = document.getElementById('profileToggle');
@@ -609,7 +639,7 @@
                             </div>
                             <div>
                                 <span class="text-gray-400">Website</span>
-                                <p class="text-white">https://portfolio-shantanu.github.io/-/</p>
+                                <p class="text-white">www.shantanukumar.com</p>
                             </div>
                         </li>
                     </ul>

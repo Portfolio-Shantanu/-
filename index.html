@@ -154,7 +154,7 @@
   <!-- Modal Card -->
   <div
     class="relative bg-white rounded-lg p-6
-           w-[30vw] max-w-sm
+    w-full max-w-md mx-auto shadow-lg transition-transform transform scale-95 md:scale-100
            max-h-[80vh] overflow-y-auto"
   >
     <!-- Close Button -->
@@ -800,10 +800,12 @@
                 }
             });
         };
+        
         // Initial animation check
         window.addEventListener('scroll', animateOnScroll);
         animateOnScroll();
 
+        
     </script>
 </body>
 </html>
